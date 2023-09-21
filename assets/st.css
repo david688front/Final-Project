@@ -1,0 +1,265 @@
+/* Reset some default styles */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+.app {
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 2rem;
+    font-family: Inter, system-ui;
+    --tw-text-opacity: 1;
+    color: rgb(36 62 99 / var(--tw-text-opacity));
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.light_navlink {
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom-width: 0px;
+    font-weight: 900;
+    margin-left: 0px !important;
+    font-size: 1.5rem !important;
+
+
+}
+
+.light_navlink img {
+    margin-right: 0.75rem;
+    width: 2.5rem;
+}
+
+.light_nav_a {
+    margin: 0px 1.5rem;
+    font-size: 0.875rem;
+    border-bottom-width: 2px;
+    border-color: transparent;
+    padding-bottom: 0.25rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    border-color: transparent;
+    padding-bottom: 0.25rem;
+    letter-spacing: 0.025em;
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+    .light_nav_a {
+        margin: 0px 1.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+
+.light_nav-div{
+    display: inline-block;
+}
+
+.header_light{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1280px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.nav_desktop{
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+
+.nav_desktop_m {
+    border-color: transparent;
+    padding-bottom: 0.25rem;
+    letter-spacing: 0.025em;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+@media (min-width: 1024px) {
+    .nav_desktop_m {
+        margin: 0px 1.5rem;
+        font-size: 0.875rem;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style the features section */
+.features {
+    padding: 60px 0;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the pricing section */
+.pricing {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.pricing h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.price-plan {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.price-plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price-plan p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.price-plan ul {
+    list-style: none;
+}
+
+.price-plan ul li {
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+/* Style the contact section */
+.contact {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
